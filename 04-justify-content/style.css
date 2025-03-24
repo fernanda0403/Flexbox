@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(166, 85, 41);
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: flex-start; /* default alinea al inicio principal */
+  justify-content: flex-end; /* alinea al final principal */
+  justify-content: center; /* alinea al centro */
+  justify-content: space-around; /* distribuye el espacio disponible a cada lado de los elementos de forma proporcional */
+  justify-content: space-between; /* distribuye el espacio disponible entre los elementos */
+  justify-content: space-evenly; /* distribuye el espacio disponible entre los elementos y el borde del contenedor */
+
+  margin: 0 auto;
+  width: 1000px;
+  height: 1000px;
+  background-color: brown;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  padding-top: 46px;
+  text-align: center;
+  background-color: rgb(152, 41, 166);
+}
