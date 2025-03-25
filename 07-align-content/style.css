@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: rgb(13, 56, 94);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner {
+display: flex;
+flex-wrap: wrap;
+
+align-content: normal; /* valor por default */
+align-content: flex-start; /* lleva las lineas hacia el croos-start */
+align-content: flex-end; /* lleva las lineas hacia el croos-end */
+align-content: center; /* lleva las lineas hacia el centro del croos-axis */
+align-content: space-around; /* Distribuye el mismo espacio arriba y abajo de los elementos */
+align-content: space-between;/* Distribuye el mismo espacio entre las lineas sin comsiderar los bordes */
+align-content: space-evenly;/* Distribuye el mismo espacio proporcionalmete incluyendo los bordes  */
+align-content: stretch;/* estira las lineas en el espacio disponible. los item no deben tener un alt definido  */
+
+
+width: 500px;
+height: 100vh;
+background-color: gray;
+
+}
+
+.item {
+width: 150px;
+height: 100px;
+background-color: gainsboro;
+text-align: center;
+border: 1px solid red
+}
