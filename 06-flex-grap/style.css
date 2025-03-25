@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(0, 44, 140);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+display: flex;
+
+justify-content: center;
+align-items: stretch;
+flex-wrap: nowrap; /* default. Esto no froza el salto de linea. */
+flex-wrap: wrap;
+gap: 16px; /* espacio entre los elementos */
+
+  width: 500px;
+  height: 500px;
+background-color: rgb(0, 89, 140);
+padding: 16px 0;
+}
+
+.item {
+  background-color: rgb(92, 0, 140);
+  width: 150px;
+  /* height: 50px; */
+  text-align: center;
+  border: 1px solid rgb(0, 0, 140);
+}
