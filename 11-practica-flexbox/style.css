@@ -6,6 +6,121 @@
 
 body {
   background-color: orange;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Arial, Helvetica, sans-serif
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(213, 151, 35);
+}
+
+h1 {
+  color: rgb(85, 75, 57);
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(85, 75, 57);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(61, 102, 153);
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  
+}
+
+aside {
+  padding: 1rem;
+ 
+  background-color: rgb(128, 105, 64);
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: rgb(41, 45, 51);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: rgb(9, 1, 15);
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: flex-start;
+
+  background-color: rgb(61, 79, 102);
+}
+
+.card {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(41, 113, 204); 
+
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(85, 75, 57);
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  color: rgb(4, 4, 43);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: azure;
+  background-color: orange);
+  padding: 1rem;
+}
+
+.copyright {
+  color: rgb(85, 75, 57);
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialmedia a {
+  font-size: 1.5rem;
+padding: 0.5rem;
+}
